@@ -3,13 +3,40 @@
 
 <head>
     <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <form>
-        <label for="fullname">Fullname: </label>
-        
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./skills.html">Skills</a></li>
+        <li><a href="./education.html">Education & Experience</a></li>
+        <li><a href="./contact.html">Contact me</a></li>
+    </ul>
+
+    <!-- fullname, email, subject, message-->
+
+    <form action="mailto:leylaeynullayeva05@gmail.com" method="post" enctype="text/plain">
+        <label for="fullname">Fullname</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password" placeholder="Enter your password"><br>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="10" cols="30"></textarea><br>
+
+        <input type="submit" value="Submit"><br>
+        <input type="reset" value="Reset"><br>
+        <button>Send</button>
     </form>
 </body>
 </html>
