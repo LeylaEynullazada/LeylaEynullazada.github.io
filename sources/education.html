@@ -6,10 +6,45 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th{
+            height: 50px;
+            background-color: palevioletred;
+            
+        
+        }
+
+        table{
+            width: 100%;
+        }
+
+        td{
+            text-align: center;
+        }
+
+        th, td{
+            padding: 8px;
+        }
+
+        tr:hover{
+            background-color: palevioletred;
+        }
+
+        tr:nth-child(even){
+            background-color: rgb(255, 221, 237);
+        }
+    </style>
+
 </head>
 
 <body>
-    <ul>
+    <ul class="a">
         <li><a href="../index.html">Home</a></li>
         <li><a href="./skills.html">Skills</a></li>
         <li><a href="./education.html">Education & Experience</a></li>
@@ -84,7 +119,7 @@
             <td></td>
         </tr>
         <tr>
-            <th colspan="8">Noon</th>
+            <td colspan="8">Noon</td>
         </tr>
         <tr>
             <td>13:00</td>
@@ -134,13 +169,6 @@
 
     </table>
 
-    <style>
-        table, th, td{
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-
-    </style>
 
     <h2>Experience</h2>
 
