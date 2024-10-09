@@ -19,6 +19,7 @@
             width: 60%;
             border-radius: 10px;
             padding: 20px;
+            
         }
 
         .col-25{
@@ -48,9 +49,9 @@
         input[type=text], input[type=email], textarea{
             width: 100%;
             padding: 10px;
-            border: 5px palevioletred;
             border-radius: 8px;
             resize: vertical;
+            border: white;
         } 
 
         input[type=submit], input[type=reset]{
@@ -72,7 +73,23 @@
         }
 
         label{
-            display: inline-block;
+            display:inline-block;
+            color: palevioletred;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 800px) {
+            .col-25, .col-50, .col-75{
+                width: 100%;
+                margin-top: 5px;
+            }
+
+            input[type=submit], input[type=reset]{
+                width: 100%;
+                margin-top: 5px;
+                margin-left: auto;
+            }
         }
     </style>
 </head>
