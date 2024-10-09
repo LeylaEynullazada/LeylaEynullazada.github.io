@@ -1,11 +1,14 @@
-body {
+ body {
     background-color: rgba(255, 196, 210, 0.877);
     font-style: oblique;
-    width: 90%;
-    margin: auto;
     font-size: large;
 }
 
+
+.content{
+    margin: auto;
+    width: 90%;
+}
 
 
 ul.a{
@@ -21,12 +24,13 @@ ul.a{
 
 ul li{
     color: palevioletred;
+    font-size: x-large;
 }
 
 
 
 ul.b{
     list-style: circle;
-
 }
+
 
