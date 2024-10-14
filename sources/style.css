@@ -2,17 +2,19 @@
     background-color: rgba(255, 196, 210, 0.877);
     font-style: oblique;
     font-size: large;
+    color: rgb(119, 27, 58);
 }
 
 
 .content{
     margin: auto;
-    width: 90%;
+    width: 60%;
+    text-align: center;
 }
 
 
 ul.a{
-    list-style: square inside;
+    list-style: square, inside;
     background-color: rgb(255, 228, 237);
     padding: 15px;
     font-size: large;
@@ -23,7 +25,7 @@ ul.a{
 
 
 ul li{
-    color: palevioletred;
+    color: rgb(119, 27, 58);
     font-size: x-large;
 }
 
@@ -31,6 +33,8 @@ ul li{
 
 ul.b{
     list-style: circle;
+    list-style-position: inside;
+    text-align:justify;
 }
 
 

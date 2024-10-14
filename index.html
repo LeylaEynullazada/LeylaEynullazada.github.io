@@ -23,6 +23,18 @@
                 transform: scale(1.1);
             }
 
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                
+            }
+
+            .flex-container > div{
+                margin: 10px;
+            }
             
         </style>
 
@@ -45,43 +57,49 @@
 
 
     <div class="content">
-        <body >
-                <table>
-                    <tr>
-                        <td>
-                            <img src="./images/Barbie.jpg" alt="My cat when it was little" class="profile-pic" style="width: 200px; height:200px; border-radius: 100px;">
-                        </td>
-                        <td>
-                            <h1>Leyla Eynullazada</h1>
-                        </td>
-                    </tr>
-                </table>
+        <body>
+
+            <div class="flex-container">
+                <div>
+                    <img src="./images/Barbie.jpg" alt="Barbie profile picture." class="profile-pic" style="width: 200px; height:200px; border-radius: 100px;">
+                </div>
+                            
+                <div>
+                    <h1>Leyla Eynullazada</h1>
+                </div>
+            </div>
+                
+                            
+                     
                 
                 
                 
                 <h1>Biography</h1>
 
-                <p>I am an IT student at
+                <p>I am a 3rd year student of IT at
                     <a href="https://www.ada.edu.az/en" target="_blank">ADA university</a>
                     .
                 </p>
 
-                <p><strong>I'm gonna join &nbsp;volunteering programs this semester.</strong></p>
+                <p><strong>In love with coffee, rainy weather, flowers, and romanticizing life (also Barbie) :)</strong></p>
 
                 <hr>
 
                 <h1>What is new?</h1>
 
+                
                 <ul class="b">
                     <li>2024 Spring term finished</li>
                     <li>2024 Fall term started!</li>
                     <ol>
-                        <li>Learning HTML</li>
-                        <li>Learning CSS</li>
-                        <li>Learning JavaScript</li>
-                        <li>Learning Python</li>
+                       <li>Learning HTML</li>
+                       <li>Learning CSS</li>
+                       <li>Learning JavaScript</li>
+                       <li>Learning Python</li>
                     </ol>
-                </ul>
+                </ul> 
+                
+               
         
                 
 
