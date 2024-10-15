@@ -36,20 +36,67 @@
                 margin: 10px;
             }
             
+
+            footer{
+                width: 80%;
+                margin: auto;
+            }
+
+            div.gallery img{
+                width: 100%;
+                height: 320px;
+            }
+
+
+            * {
+                box-sizing: border-box;
+            }
+
+
+            .responsive{
+                padding: 0 20px;
+                float: left;
+                width: 19.99999%;
+            }
+
+            @media screen and (max-width: 1100px) {
+                .responsive{
+                    width: 33.22222%;
+                    margin: 6px 0;
+                }
+            }
+
+
+            @media screen and (max-width: 800px) {
+                .responsive{
+                    width: 49.999%;
+                    margin: 6px 0;
+                }
+            }
+
+
+            @media screen and (max-width:500px) {
+                .responsive{
+                    width: 100%;
+                }
+            }
+
+
+
         </style>
 
     </head>
 
 
 
-    <div>
+    <div class="sticky">
         <header>
              <ul class="a">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./sources/skills.html">Skills</a></li>
-                    <li><a href="./sources/education.html">Education & Experience</a></li>
-                    <li><a href="./sources/contact.html">Contact me</a></li>
-                </ul>
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./sources/skills.html">Skills</a></li>
+                <li><a href="./sources/education.html">Education & Experience</a></li>
+                <li><a href="./sources/contact.html">Contact me</a></li>
+            </ul>
         </header>
     </div>
 
@@ -101,12 +148,52 @@
                 
                
         
-                
-
+                <hr>
 
             </body>
     </div>
         
+               
+  
+
+    <footer>
+        <div class="responsive">
+                <div class="gallery">
+                    <img src="./images/Pic1.jpg" >
+                </div>
+            </div>
+            
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="./images/Pic2.jpg">
+                </div>
+            </div>
+            
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="images/Pic3.jpg">
+                </div>
+            </div>
+            
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="images/Pic4.jpg">
+                </div>
+            </div>
+            
+            
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="images/Pic5.jpg">
+                </div>
+            </div>
+            
+    </footer>
+            
+
   
 
     

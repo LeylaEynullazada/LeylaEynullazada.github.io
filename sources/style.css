@@ -3,6 +3,7 @@
     font-style: oblique;
     font-size: large;
     color: rgb(119, 27, 58);
+   
 }
 
 
@@ -13,13 +14,28 @@
 }
 
 
-ul.a{
-    list-style: square, inside;
-    background-color: rgb(255, 228, 237);
-    padding: 15px;
-    font-size: large;
-    margin: 15px;
-   
+
+.a{
+    width: 100%;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+}
+
+li a {
+    display: inline-block;
+    color: rgba(255, 209, 220, 0.877);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+li a:hover{
+    background-color: rgb(119, 27, 58);
+    color: white;
 }
 
 
@@ -37,4 +53,18 @@ ul.b{
     text-align:justify;
 }
 
+.active{
+    background-color: white;
+    color: rgb(239, 34, 137);
+}
 
+.active:hover{
+    background-color: white;
+    color: rgb(239, 34, 137);
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
